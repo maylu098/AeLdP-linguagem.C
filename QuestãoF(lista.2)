@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+   
+    float raio, altura, volume;
+    const float pi = 3.14;
+
+  
+    printf("Informe o valor do raio: ");
+    scanf("%f", &raio);
+
+    printf("Informe o valor da altura: ");
+    scanf("%f", &altura);
+
+   
+    volume = pi * raio * raio * altura;
+
+    
+    printf("O valor do volume interno do recipiente é %.2f L\n", volume);
+
+    return 0;
+}
