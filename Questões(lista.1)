@@ -32,6 +32,34 @@ int main() {
 
 
 Questão4(lista.1)
+#include <stdio.h>
+
+int main() {
+   
+    float janeiro, fevereiro, marco, media_aritmetica;
+
+   
+    printf("Informe o valor gasto em janeiro: ");
+    scanf("%f", &janeiro);
+
+    printf("Informe o valor gasto em fevereiro: ");
+    scanf("%f", &fevereiro);
+
+    printf("Informe o valor gasto em março: ");
+    scanf("%f", &marco);
+
+    
+    media_aritmetica = (janeiro + fevereiro + marco) / 3;
+
+  
+    printf("A média de combustível gasto em três meses é: %.2f\n", media_aritmetica);
+
+    return 0;
+}
+
+
+Questão5
+
 
 
 
