@@ -59,6 +59,31 @@ int main() {
 
 
 Questão5
+#include <stdio.h>
+
+int main() {
+  
+    float altura, peso_ideal;
+
+  
+    const float k = 72.7;
+    const int b = 58;
+
+  
+    printf("Informe a altura: ");
+    scanf("%f", &altura);
+
+    
+    peso_ideal = k * altura - b;
+
+   
+    printf("O seu peso ideal é: %.2f\n", peso_ideal);
+
+    return 0;
+}
+
+
+questão7
 
 
 
